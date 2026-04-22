@@ -11,6 +11,7 @@ class mirrordistance{
             num=n%10;                //n=25 
             rev=rev*10+num;          //rev=52
             n=n/10;
+
         }
         int res=Math.abs(original-rev);    //res=Math.abs(27-52)=27
         System.out.println(res);
