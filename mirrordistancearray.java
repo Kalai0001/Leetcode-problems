@@ -33,6 +33,7 @@ class mirrordistancearray{
         else{
             System.out.printf("%d",-1);
         }
+
         sc.close();
     }
 }
