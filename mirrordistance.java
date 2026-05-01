@@ -15,6 +15,7 @@ class mirrordistance{
         }
         int res=Math.abs(original-rev);    //res=Math.abs(27-52)=27
         System.out.println(res);
+
         sc.close();
     }
 }
