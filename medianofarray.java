@@ -32,6 +32,7 @@ public class medianofarray {
             int mid2=mid1-1;
             System.out.println((resarr[mid1]+resarr[mid2])/2);
         }
+
         sc.close();
     }
 }
