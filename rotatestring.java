@@ -20,7 +20,8 @@ public class rotatestring {
             String remain=s.substring(1);
             current=remain+temp;
         }
-        System.out.print("false");
+        System.out.print("false"); 
+
         sc.close();
     }
 }
