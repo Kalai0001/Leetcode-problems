@@ -32,6 +32,7 @@ public class maximumdistancevaluepair {
         else{
             System.out.println(0);
         }
+
         sc.close();
     }
 }
