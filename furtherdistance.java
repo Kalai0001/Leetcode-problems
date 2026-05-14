@@ -17,6 +17,7 @@ public class furtherdistance {
            }
         }
         System.out.printf("%d",res);
+
         sc.close();
     }
 }
