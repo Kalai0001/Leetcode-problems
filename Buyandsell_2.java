@@ -6,17 +6,17 @@ public class Buyandsell_2 {
 
         int n = prices.length;
 
-        int min = prices[0];
-        int max = -1;
+        int max = 0;
 
-        for (int i = 1; i < n; i++) {
+        for(int i = 1; i < n - 1; i++){
 
-            max = Math.max(max, prices[i] - min);
+            if(prices[i] < prices[i + 1]){
 
-            min = Math.min(min, prices[i]);
+                max = max + prices[i + 1] - prices[i];
+            }
         }
 
-        return max == -1 ? 0 : max;
+        return max;
     }
 
     public static void main(String[] args) {
