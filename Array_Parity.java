@@ -22,7 +22,6 @@ class Array_Parity {
         boolean result = obj.uniformArray(nums1);
 
         System.out.println(result);
-
         sc.close();
     }
 }
