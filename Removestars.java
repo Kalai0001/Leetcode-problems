@@ -29,7 +29,6 @@ public class Removestars {
         String s = sc.nextLine();
 
         String result = removeStars(s);
-
         System.out.println(result);
 
         sc.close();
