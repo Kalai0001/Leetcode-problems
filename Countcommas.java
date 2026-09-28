@@ -23,7 +23,6 @@ public class Countcommas {
         int result = countCommas(n);
 
         System.out.println(result);
-
         sc.close();
     }
 }
