@@ -40,7 +40,7 @@ class Solution {
         List<String> result = obj.StringMatching(words);
 
         System.out.println(result);
-
+        
         sc.close();
     }
 }
